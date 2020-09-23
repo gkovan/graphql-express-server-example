@@ -19,3 +19,30 @@ Open browser and go to graphql playground:
 ```
 http://localhost:9999/graphql
 ```
+
+
+Queries to run:
+```
+query {
+  books {
+    getBooks {
+      title
+      author
+    }
+  }
+}
+```
+
+```
+query {
+  starWars {
+    films {
+      title
+      producer
+      planets
+      vehicles
+      characters
+    }
+  }
+}
+```
