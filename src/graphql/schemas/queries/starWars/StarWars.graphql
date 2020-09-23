@@ -1,0 +1,9 @@
+type StarWars
+{
+	films (id: Int): [StarWarsFilm],
+	persons (id: Int): [StarWarsPerson],
+	planets: [StarWarsPlanet],
+	species: [StarWarsSpecies],
+	startships: [StarWarsStarship],
+	vehicles: [StarWarsVehicle]
+}

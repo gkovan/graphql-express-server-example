@@ -1,0 +1,10 @@
+{
+	"logging": {
+		"level": "${process.env.LOG_LEVEL} || debug",
+		"consoleEnabled": true,
+		"piiFilter": [
+			"decryptedToken",
+			"authorization"
+		]
+	}
+}

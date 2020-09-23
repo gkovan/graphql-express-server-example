@@ -1,0 +1,45 @@
+"A Star Wars film"
+type StarWarsFilm
+{
+	"The starship resources featured within this film."
+	starships: [String],
+
+	"the ISO 8601 date format of the time that this resource was edited."
+	edited: String,
+
+	"The planet resources featured within this film."
+	planets: [String],
+
+	"The producer(s) of this film."
+	producer: String,
+
+	"The title of this film."
+	title: String,
+
+	"The url of this resource"
+	url: String,
+
+	"The release date at original creator country."
+	releaseDate: String,
+
+	"The vehicle resources featured within this film."
+	vehicles: [String],
+
+	"The episode number of this film."
+	episodeId: Int,
+
+	"The director of this film."
+	director: String,
+
+	"The ISO 8601 date format of the time that this resource was created."
+	created: String,
+
+	"The opening crawl text at the beginning of this film."
+	openingCrawl: String
+
+	"The people resources featured within this film."
+	characters: [String],
+
+	"The species resources featured within this film."
+	species: [String],
+}
