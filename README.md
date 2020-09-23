@@ -46,3 +46,24 @@ query {
   }
 }
 ```
+
+Run both queries together:
+```
+query {
+  starWars {
+    films {
+      title
+      producer
+      planets
+      vehicles
+      characters
+    }
+  }
+  books {
+    getBooks {
+      title
+      author
+    }
+  }
+}
+```
